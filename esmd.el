@@ -1,4 +1,4 @@
-;;; esmd.el --- Major-mode for VMD
+;;; esmd.el --- Emacs Major-mode for VMD
 
 ;; Copyright (C) 2014  Salvatore M Cosseddu
 
@@ -18,7 +18,8 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-;;; Commentary: It is derived from tcl mode but allow to run an instance of VMD in a
+;;; Commentary: Major mode to use VMD within emacs. 
+;;;             It is derived from tcl mode but allow to run an instance of VMD in a
 ;;;             second buffer in order to send on-the-fly the commands. It add to tcl-mode tree
 ;;;             keys to directly interact with VMD:
 ;;;             "\C-c\C-n" vmd-send-line
