@@ -62,9 +62,10 @@
   "Commandline arguments to pass to `vmd-run'")
 
 ;; ------------------------------
-;; communication with the vmd buffer 
+;; communication with the vmd buffer
+;; (nconc (make-sparse-keymap) comint-mode-map)
 (defvar vmd-mode-map
-  (let ((map (make-sparse-keymap)))
+  (let ((map (nconc (make-sparse-keymap) tcl-mode-map)))
     (define-key map "\C-c\C-n" 'vmd-send-line)
     (define-key map "\C-c\C-r" 'vmd-send-region)
     (define-key map "\C-c\C-q" 'vmd-send-abort)
