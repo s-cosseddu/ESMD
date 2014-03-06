@@ -8,11 +8,11 @@ Description :
 
 Major mode to use VMD within emacs.
 It is derived from tcl mode but allow to run an instance of VMD in a
-second buffer in order to send on-the-fly the commands. It add to tcl-mode tree
-keys to directly interact with VMD:
-"\C-c\C-n" vmd-send-line
-"\C-c\C-r" vmd-send-region
-"\C-c\C-q" vmd-send-abort
+second buffer in order to send on-the-fly the commands. Three combinations of keys are added to tcl-mode
+to directly interact with VMD:
+- "\C-c\C-n" vmd-send-line
+- "\C-c\C-r" vmd-send-region
+- "\C-c\C-q" vmd-send-abort
 
 Usage:
 -----------
