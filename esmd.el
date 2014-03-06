@@ -55,7 +55,7 @@
 
 ;; ----------------------------------------------
 ;; relevant variables 
-(defvar vmd-path "/home/salvatore/bin/vmd -nt" 
+(defvar vmd-path "/usr/bin/env vmd -nt" 
   "Default path used by `vmd-run'.")
  
 (defvar vmd-cli-arguments '()
