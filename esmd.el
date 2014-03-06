@@ -123,10 +123,7 @@
   "Major mode for vmd.
 
 The following commands are available: 
-\\{vmd-mode-map}" 
-  (setq truncate-lines t)
-  (setq case-fold-search nil)
-  )
+\\{vmd-mode-map}")
 
  
 (define-derived-mode inf-vmd-mode comint-mode "VMD"
