@@ -24,7 +24,7 @@
 ;;;             keys to directly interact with VMD:
 ;;;             "\C-c\C-n" vmd-send-line
 ;;;             "\C-c\C-r" vmd-send-region
-;;;             "\C-c\C-q" vmd-send-abort
+;;;             "\C-c\C-q" vmd-send-quit
 ;;;             USAGE:
 ;;;             
 ;;;             1. installation:
@@ -68,7 +68,7 @@
   (let ((map (nconc (make-sparse-keymap) tcl-mode-map)))
     (define-key map "\C-c\C-n" 'vmd-send-line)
     (define-key map "\C-c\C-r" 'vmd-send-region)
-    (define-key map "\C-c\C-q" 'vmd-send-abort)
+    (define-key map "\C-c\C-q" 'vmd-send-quit)
     map)
   "Map for vmd-mode")
 

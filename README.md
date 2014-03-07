@@ -12,7 +12,7 @@ second buffer in order to send on-the-fly the commands. Three combinations of ke
 to directly interact with VMD:
 - "\C-c\C-n" vmd-send-line
 - "\C-c\C-r" vmd-send-region
-- "\C-c\C-q" vmd-send-abort
+- "\C-c\C-q" vmd-send-quit
 
 Usage:
 -----------
